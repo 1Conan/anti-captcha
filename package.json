@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "build:dev": "tsc -p tsconfig.dev.json",
+    "build:test": "tsc -p tsconfig.dev.json --noEmit",
     "lint": "eslint --ext js,ts .",
     "lint:fix": "eslint --fix --ext js,ts .",
     "format": "prettier --write .",
