@@ -1,7 +1,17 @@
 name: Test Build & Lint
 on:
-- push
-- pull_request
+  push:
+    paths:
+    - 'src/**'
+    - '*.json'
+    - '*.js'
+    - '*.yaml'
+  pull_request:
+    paths:
+    - 'src/**'
+    - '*.json'
+    - '*.js'
+    - '*.yaml'
 
 jobs:
   lint:
