@@ -1,0 +1,49 @@
+{
+  "name": "@1conan/anti-captcha",
+  "version": "1.0.0",
+  "description": "anti-captcha api client",
+  "main": "dist/index",
+  "scripts": {
+    "build": "tsc",
+    "build:dev": "tsc -p tsconfig.dev.json",
+    "lint": "eslint --ext js,ts .",
+    "lint:fix": "eslint --fix --ext js,ts .",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Conan/anti-captcha.git"
+  },
+  "author": "1Conan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Conan/anti-captcha/issues"
+  },
+  "homepage": "https://github.com/1Conan/anti-captcha#readme",
+  "keywords": [
+    "anti-captcha",
+    "anticaptcha",
+    "captcha",
+    "captcha solver"
+  ],
+  "dependencies": {
+    "cross-fetch": "^3.1.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@types/node": "^16.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  }
+}
