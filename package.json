@@ -30,7 +30,7 @@
     "captcha solver"
   ],
   "dependencies": {
-    "cross-fetch": "^3.1.4"
+    "cross-fetch": "^3.1.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
